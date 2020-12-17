@@ -1,0 +1,40 @@
+.main {
+  position: fixed;
+  z-index: 1;
+  background-color: rgba(87, 87, 87, 0.372);
+  overflow: auto;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  padding-top: 30%;
+}
+.remove {
+  display: none;
+}
+
+.modal {
+  font-family: "Courier New", Courier, monospace;
+  display: flex;
+  flex-direction: column;
+  font-weight: 700;
+  font-size: large;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 30px;
+  border: 1px solid #888;
+  border-radius: 5px;
+  width: 70%;
+}
+
+.button {
+  justify-content: center;
+  width: 8%;
+  border-radius: 8px;
+  background-color: rgb(37, 210, 92);
+  border: none;
+  color: white;
+  padding: 12px;
+  font-size: 16px;
+  cursor: pointer;
+}

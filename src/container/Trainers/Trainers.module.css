@@ -1,0 +1,61 @@
+.main {
+  display: flex;
+  flex-direction: column;
+}
+
+.trainerMain {
+  color: white;
+  background-image: url("../../Images/anastase-maragos-zGerGuIC3RA-unsplash.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.inBetweenDiv {
+  height: 5px;
+  background-color: rgb(73, 181, 102);
+  border: none;
+}
+.heading {
+  background-color: transparent;
+}
+.wow {
+  visibility: hidden;
+}
+
+.flexContainer {
+  display: flex;
+  flex-direction: column;
+}
+.item {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  color: black;
+  margin: 30px 0;
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+}
+.item1 {
+  margin-left: 20%;
+}
+.item2 {
+  margin-left: 50%;
+}
+.item3 {
+  margin-left: 20%;
+}
+
+@media only screen and (max-width: 789px) {
+  .item {
+    width: 80%;
+  }
+  .item1 {
+    margin: 30px;
+  }
+  .item2 {
+    margin: 30px;
+  }
+  .item3 {
+    margin: 30px;
+  }
+}

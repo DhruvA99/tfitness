@@ -1,0 +1,63 @@
+.main {
+  display: flex;
+  flex-direction: column;
+}
+
+.mainGymContainer {
+  margin: 60px auto;
+}
+.mainImage {
+  width: 100vw;
+}
+
+.flexContainer {
+  display: flex;
+  margin: 30px 40px;
+  position: relative;
+}
+.wow {
+  visibility: hidden;
+}
+
+.item {
+  flex: 1 33%;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.3s;
+}
+
+.item:hover {
+  transform: scale(1.03);
+}
+
+.image {
+  height: 35vh;
+  width: 100%;
+  max-height: 300px;
+}
+
+.details {
+  margin: 0;
+  vertical-align: top;
+  background-color: rgb(17, 31, 73);
+  color: white;
+}
+
+@media only screen and (max-width: 950px) {
+  .flexContainer {
+    flex-direction: column;
+  }
+  .item {
+    width: 70%;
+    margin: 20px auto;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .item {
+    width: 90%;
+  }
+  .image {
+    height: 30vh;
+  }
+}

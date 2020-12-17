@@ -1,0 +1,36 @@
+.main {
+  padding: 40px;
+  background-color: rgb(10, 48, 51);
+  color: white;
+}
+
+.container {
+  display: flex;
+}
+
+.item1 {
+  flex: 1 40%;
+  margin: 10px;
+}
+
+.colorChange {
+  color: rgb(61, 224, 72);
+}
+
+.paragraphText {
+  text-align: left;
+}
+
+.item2 {
+  margin: 10px;
+  text-align: left;
+}
+.socialBar {
+  display: flex;
+}
+
+@media only screen and (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+}
